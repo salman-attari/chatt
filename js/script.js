@@ -4,7 +4,7 @@ import { getAuth,GoogleAuthProvider, signInWithPopup,  } from "https://www.gstat
 const firebaseConfig = {
     apiKey: "AIzaSyBV723Gv55q67G4E4ByUym_0hBLOuK1nCs",
     authDomain: "chat-5a331.firebaseapp.com",
-    databaseURL: "https://chat-5a331.firebaseio.com",
+    databaseURL: "https://chat-5a331-default-rtdb.firebaseio.com",                 
     projectId: "chat-5a331",
     storageBucket: "chat-5a331.appspot.com",
     messagingSenderId: "444167367213",
