@@ -1,6 +1,6 @@
 var firebaseConfig = {
   apiKey: "",
-  authDomain: "https://chat-5a331-default-rtdb.firebaseio.com",
+  authDomain: "chat-5a331.firebaseapp.com",
   databaseURL: "",
   projectId: "",
   storageBucket: "",
