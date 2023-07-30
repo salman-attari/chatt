@@ -1,16 +1,18 @@
-var firebaseConfig = {
-    apiKey: "AIzaSyA-ZedvYNPNBlQyQy26d5PhbrO-IaLR5qA",
-    authDomain: "signup-89c7a.firebaseapp.com",
-    // databaseURL: "",
-    projectId: "signup-89c7a",
-    storageBucket: "signup-89c7a.appspot.com",
-    messagingSenderId: "987788007116",
-    appId: "1:987788007116:web:700c56d573a8bc26e91469",
-    measurementId: "G-6BH951H5WV"
-};
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+import { getAuth,GoogleAuthProvider, signInWithPopup,  } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-auth.js";
 
+const firebaseConfig = {
+    apiKey: "AIzaSyBV723Gv55q67G4E4ByUym_0hBLOuK1nCs",
+    authDomain: "chat-5a331.firebaseapp.com",
+    projectId: "chat-5a331",
+    storageBucket: "chat-5a331.appspot.com",
+    messagingSenderId: "444167367213",
+    appId: "1:444167367213:web:e02d8bdfb4bde4e92726a4",
+    measurementId: "G-RPQ8ZM3LXM"
+  };
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+const app=initializeApp(firebaseConfig)
+const auth = getAuth(app)
 
 var uid = '';
 
